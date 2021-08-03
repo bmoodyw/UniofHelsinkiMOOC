@@ -18,18 +18,18 @@ public class GiftTax {
         
         if (input < 5000){
             System.out.println("No tax!");
-        } else if (input >= 5000 && input < 25000) {
+        } else if (input >= 5000 && input < 25000){
             System.out.println("Tax: " + tax1);
-        } else if (input >=25000 && input < 55000) {
+        } else if (input >= 25000 && input < 55000){
             System.out.println("Tax: " + tax2);
-        } else if (input >=55000 && input < 200000) {
-            System.out.println("Tax: " +tax3);
-        } else if (input >=200000 && input < 1000000){
-            System.out.println("Tax " +tax4);
-        } else if (input >1000000){
+        } else if (input >= 55000 && input < 200000){
+            System.out.println("Tax: " + tax3);
+        } else if (input >= 200000 && input < 1000000){
+            System.out.println("Tax: " + tax4);
+        } else if (input > 1000000){
             System.out.println("Tax: " + tax5);
         }
-
-   
+        
+        
     }
 }
