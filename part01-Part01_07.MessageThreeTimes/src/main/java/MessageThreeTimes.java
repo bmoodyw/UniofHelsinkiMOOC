@@ -1,15 +1,17 @@
 
 import java.util.Scanner;
 
-public class Program {
+public class MessageThreeTimes {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Write something: ");
+        System.out.println("Write a message:");
         
-        String message = scanner.nextLine();
+        String userInput = scanner.nextLine();
         
-        System.out.println("You wrote " + message );
+        System.out.println(userInput);
+        System.out.println(userInput);
+        System.out.println(userInput);
     }
 }
