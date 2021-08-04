@@ -8,9 +8,9 @@ public class Greeting {
         
         System.out.println("What's your name?");
         
-        String message = scanner.nextLine();
+        String userInput = scanner.nextLine();
         
-        System.out.println("Hi " + message);
+        System.out.println("Hi " + userInput);
 
         // Write your program here
 
