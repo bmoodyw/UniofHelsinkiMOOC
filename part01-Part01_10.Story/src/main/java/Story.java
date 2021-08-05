@@ -6,7 +6,7 @@ public class Story {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         
-        System.out.println("I will tell you a story, but I need some information first.");
+        System.out.println("I will tell you a story, but I need some information first. \n" 
         System.out.println("What is the main character called?");
         String name = reader.nextLine();
         System.out.println("What is their job?");
