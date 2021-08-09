@@ -7,7 +7,7 @@ public class Adulthood {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("How old are you?");
-        int age = Integer.valueOf(scan.nextLine());
+        int age = scan.nextInt();
         
         System.out.println("");
         if (age >= 18 ) {
@@ -15,7 +15,5 @@ public class Adulthood {
         } else {
             System.out.println("You are not an adult");
         }
-
-        // Write your program here 
     }
 }

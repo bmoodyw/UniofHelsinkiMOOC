@@ -9,14 +9,12 @@ public class Password {
         System.out.println("Password?");
         String passcode = scan.nextLine();
         
-        System.out.println("");
-        if (passcode.equals("Caput Draconis")) {
+        if (passcode.equals("Caput Draconis")){
             System.out.println("Welcome!");
-        } else if (passcode.equals("password") {
-            System.out.println("Off with you!");
         } else {
-            System.out.println("you're god!");
+            System.out.println("Off with you!");
         }
+        
     
     
     

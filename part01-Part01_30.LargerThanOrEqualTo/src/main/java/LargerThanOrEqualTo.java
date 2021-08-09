@@ -7,10 +7,10 @@ public class LargerThanOrEqualTo {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Give the first number:");
-        int first = Integer.valueOf(scan.nextLine());
+        int first = scan.nextInt();
         
         System.out.println("Give the second number:");
-        int second = Integer.valueOf(scan.nextLine());
+        int second = scan.nextInt();
         
         System.out.println("");
         if (first > second) {

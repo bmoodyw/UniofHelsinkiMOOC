@@ -7,17 +7,14 @@ public class Positivity {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Give a number:");
-        int number = Integer.valueOf(scan.nextLine());
+        int number = scan.nextInt();
         
         System.out.println("");
         if (number > 0) {
             System.out.println("The number is positive");
-            System.out.println("The number is positive");
-            System.out.println("The number is positive");
         } else {
             System.out.println("The number is not positive.");
-        }
+        }// end of our if and else
 
-        // Write your program here
-    }
-}
+    }// end of main method
+}// end of class

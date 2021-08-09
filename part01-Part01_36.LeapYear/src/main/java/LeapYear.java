@@ -7,7 +7,7 @@ public class LeapYear {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Give a year:");
-        int leap = Integer.valueOf(scan.nextLine());
+        int leap = scan.nextInt();
 
         System.out.println("Give a year:");
         if (leap % 4 == 0 && leap % 100 != 0) {
